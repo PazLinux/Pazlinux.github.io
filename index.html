@@ -1,58 +1,118 @@
-
 <!DOCTYPE html>
-<html lang="he" dir="rtl">
+<html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <title>Paz Linux</title>
-    <style>
-        body {
-            background-color: white;
-            color: #0077cc;
-            font-family: 'Segoe UI', sans-serif;
-            margin: 0;
-            padding: 0;
-            text-align: center;
-        }
-        header {
-            padding: 30px;
-        }
-        img {
-            max-width: 100%%;
-            height: auto;
-        }
-        .download-button {
-            background-color: #0077cc;
-            color: white;
-            padding: 12px 24px;
-            border-radius: 8px;
-            text-decoration: none;
-            font-size: 18px;
-            font-weight: bold;
-            transition: 0.3s;
-            display: inline-block;
-            margin-top: 20px;
-        }
-        .download-button:hover {
-            background-color: #005fa3;
-        }
-        section {
-            padding: 20px;
-        }
-    </style>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Paz Linux</title>
+  <link rel="stylesheet" href="style.css">
+  <style>
+    body {
+      background-color: #0d0d0d;
+      color: #ccffcc;
+      font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+      margin: 0;
+      padding: 0;
+      line-height: 1.6;
+    }
+
+    header {
+      text-align: center;
+      padding: 2rem 1rem;
+    }
+
+    .banner {
+      width: 90%;
+      max-width: 600px;
+      margin: 0 auto 1rem;
+      display: block;
+    }
+
+    h1 {
+      font-size: 3rem;
+      margin: 0;
+    }
+
+    .tagline {
+      font-size: 1.2rem;
+      color: #99ff99;
+      margin-bottom: 2rem;
+    }
+
+    main {
+      padding: 1rem 2rem;
+      max-width: 900px;
+      margin: auto;
+    }
+
+    section {
+      margin-bottom: 3rem;
+    }
+
+    h2 {
+      border-bottom: 2px solid #33cc33;
+      padding-bottom: 0.5rem;
+    }
+
+    .download-button {
+      display: inline-block;
+      margin-top: 1rem;
+      padding: 0.75rem 1.5rem;
+      background-color: #33cc33;
+      color: black;
+      text-decoration: none;
+      font-weight: bold;
+      border-radius: 6px;
+      transition: background-color 0.3s ease;
+    }
+
+    .download-button:hover {
+      background-color: #28a428;
+    }
+
+    footer {
+      text-align: center;
+      padding: 1rem;
+      background-color: #111;
+      color: #88ff88;
+    }
+  </style>
 </head>
 <body>
-    <header>
-        <h1>Paz Linux</h1>
-        <p>מערכת ההפעלה המהירה והנקייה לגיימרים</p>
-        <a href="#" class="download-button">Download ISO</a>
-    </header>
-    <section>
-        <h2>Features / תכונות</h2>
-        <ul style="list-style: none; padding: 0;">
-            <li>🎮 Optimized for gaming / מותאם לגיימינג</li>
-            <li>🌐 Based on Linux Mint / מבוסס על Linux Mint</li>
-            <li>🎨 Clean design / עיצוב נקי</li>
-        </ul>
+  <header>
+    <img src="paz-linux-banner.jpg" alt="Paz Linux Banner" class="banner">
+    <h1>Paz Linux</h1>
+    <p class="tagline">Fast, clean and easy Linux for gamers | מהיר, פשוט ונקי – ללינוקסרים שאוהבים גיימינג</p>
+  </header>
+
+  <main>
+    <section class="about">
+      <h2>About Paz Linux | על פז לינוקס</h2>
+      <p>
+        <strong>EN:</strong> Paz Linux is a custom Linux distribution made for gamers. Based on Linux Mint, it offers stability, performance, and a minimal design.<br>
+        <strong>HE:</strong> פז לינוקס היא הפצה מותאמת אישית לגיימרים. מבוססת לינוקס מינט, מהירה, יציבה ועם עיצוב נקי.
+      </p>
     </section>
+
+    <section class="download">
+      <h2>Download | הורדה</h2>
+      <p>
+        <strong>EN:</strong> Click below to download the ISO file.<br>
+        <strong>HE:</strong> לחץ להורדת קובץ ההתקנה (ISO).
+      </p>
+      <a href="#" class="download-button">Download Paz Linux</a>
+    </section>
+
+    <section class="install">
+      <h2>Installation | התקנה</h2>
+      <p>
+        <strong>EN:</strong> Use tools like Balena Etcher or Rufus to write the ISO to a USB stick.<br>
+        <strong>HE:</strong> השתמש בכלים כמו Balena Etcher או Rufus כדי לצרוב את הקובץ על דיסק און קי.
+      </p>
+    </section>
+  </main>
+
+  <footer>
+    <p>Made by Paz | נוצר על ידי פז © 2025</p>
+  </footer>
 </body>
 </html>
